@@ -1,0 +1,25 @@
+/* DATA DESCRIPTION:
+Citation:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress. 
+			REF FROM ZENODO with DOI!!!!
+			
+Summary:	This dataset contains the daily transpiration, soil water content and leaf area measurements for the six Pinus sylvestris (L.) saplings monitorized.
+
+Related to:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress.
+			REF  with DOI!!!!
+
+Coverage:	LATITUDE: 47.475793 * LONGITUDE: 11.062231 * DOY 212 (Year 2020) - DOY 265 (Year 2020) * Daily registers
+Event(s):	Leaf_area * Daily_transpiration * Soil_water_content * LATITUDE: 47.475793 * LONGITUDE: 11.062231 * LOCATION: Garmisch-Partenkirchen, Bavaria, Southern Germany
+			METHOD/DEVICE: Litterfall collection; Sap flow measurements; Soil water content measurements
+
+Variables: 	DOY: The julian day of year (2020)
+			Individual: The identificaation code for each given tree
+			SWC: The average soil water content (in m3 m-3) for the whole soil volume
+			T_kg_day: Cummulated daily transpiration per tree (kg day-1 tree-1)
+			TperLA_kg_m2_day: Tree transpiration per unit of leaf area and per day (kg m-2 day-1 tree-1)
+			LeafArea_m2: The daily values of leaf area after reconstruction from weekly leaf litterfall measurements (m2 tree-1)
+			LeafArea_shed_m2: Cummulated leaf area shed at day DOY per tree (m2 tree-1)
+			ProportionShed: Cummulated proportion of leaf area shed at day DOY per tree, in relation to the leaf area at DOY 212 (unitless)
+			
+File: 		"TranspirationLALS.rda"

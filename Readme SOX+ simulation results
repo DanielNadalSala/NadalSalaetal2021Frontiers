@@ -1,0 +1,41 @@
+ /* DATA DESCRIPTION:
+Citation:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress. 
+			REF FROM ZENODO with DOI!!!!
+			
+Summary:	These five datasets contain the hourly and daily simulated values with the SOX+ model, under different assumptions.
+
+Related to:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress.
+			REF  with DOI!!!!
+
+Coverage:	LATITUDE: 47.475793 * LONGITUDE: 11.062231 * DOY 212 (Year 2020) - DOY 265 (Year 2020) * Daily registers
+Event(s):	SOX+_model_outputs LATITUDE: 47.475793 * LONGITUDE: 11.062231 * LOCATION: Garmisch-Partenkirchen, Bavaria, Southern Germany * METHOD/DEVICE: SOX+ model simulation
+
+Variables: 	NCU_daily: Daily cummulated net carbon uptake (gC day-1 tree-1)
+			Tr_daily: Daily cummulated transpiration (kg day-1 tree-1)
+			PLC_daily: Pre-dawn percent loss in root-to-canopy conductance (in %)
+			Psicanopy_daily: Predawn canopy water potential (MPa)
+			PSIPD_daily: Predawn root water potential (MPa)
+			LeafArea_daily: Predawn leaf area (m2 tree-1)
+			gs_hourly: Hourly stomatal conductance (mol m-2 s-1)
+			An_hourly: Hourly net assimilation (micromol m-2 s-1)
+			Psicanopy_hourly: Hourly canopy water potential (MPa)
+			SWC_hourly: Hourly soil water content (m3 m-3)
+ 
+ 
+ File: 		"ResultsHydraulic.rda"
+			A list of (6 x 500 x 54 registers) and (5 X 500 x 1296 registers), containing the daily and hourly values obtained from SOX+ model simulation considering 
+			only "hydraulic" limitations by sampling 500 times the posterior parameter estimate.
+			"ResultsHydraulicNSL.rda"
+			A list of (6 x 500 x 54 registers) and (5 X 500 x 1296 registers), containing the daily and hourly values obtained from SOX+ model simulation considering 
+			"hydraulic + NSL" limitations, but constant leaf area, by sampling 500 times the posterior parameter estimate.
+			"ResultsHydraulicLeafSheddingNSL.rda"
+			A list of (6 x 500 x 54 registers) and (5 X 500 x 1296 registers), containing the daily and hourly values obtained from SOX+ model simulation considering 
+			"hydraulic + NSL" limitations, as well as observed daily leaf area values, by sampling 500 times the posterior parameter estimate.
+			"ResultsHydraulicLeafSheddingNSL_Increasedgs.rda"
+			A list of (6 x 500 x 54 registers) and (5 X 500 x 1296 registers), containing the daily and hourly values obtained from SOX+ model simulation considering 
+			"hydraulic + NSL" limitations, as well as observed daily leaf area values, by sampling 500 times the posterior parameter estimate, but increasing a 50% gmin
+			"ResultsHydraulicNSL_Increasedgs.rda"
+			A list of (6 x 500 x 54 registers) and (5 X 500 x 1296 registers), containing the daily and hourly values obtained from SOX+ model simulation considering 
+			"hydraulic + NSL" limitations, but constant leaf area, by sampling 500 times the posterior parameter estimate, but increasing a 50% gmin

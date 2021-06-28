@@ -1,0 +1,23 @@
+/* DATA DESCRIPTION:
+Citation:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress. 
+			REF FROM ZENODO with DOI!!!!
+			
+Summary:	This dataset contains the xylem vulnerabiliy curves for 5 Pinus sylvestris (L.) branches, measured with the Cavitron technique (Cochard, 2002).
+
+Related to:	Nadal-Sala, Daniel; Grote, Rüdiger; Birami, Benjamin; Knüver, Timo; Rehschuh, Roomy; Schwarz, Selina; Ruehr, Nadine K (2021):
+			Leaf shedding and non-stomatal limitations of photosynthesis reduce hydraulic conductance loss in Scots pine saplings during severe drought stress.
+			REF  with DOI!!!!
+
+Coverage:	LATITUDE: 47.475793 * LONGITUDE: 11.062231 * DOY 212 (Year 2020) - DOY 265 (Year 2020) * Hourly registers
+Event(s):	Greenhouse_climate * LATITUDE: 47.475793 * LONGITUDE: 11.062231 * LOCATION: Garmisch-Partenkirchen, Bavaria, Southern Germany * METHOD/DEVICE: Climate conditions measurements
+
+Variables: 	Register: The number of the register
+			DOY: The julian day of year (2020)
+			Hour: The hour at which measurement was taken
+			PAR: Photosynthetic active radiation (micromol mol-1)
+			Tair: Air temperature (°C)
+			RH: Air relative humidity (%)
+			VPD: Air vapor pressure deficit (kPa)
+			
+File: 		"MeteoData.csv"
